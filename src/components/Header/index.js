@@ -1,4 +1,4 @@
-import React, { Component } from "react";
+import React from "react";
 import "./styles.css";
 import logo from "./images/Hospital-Symbol.png";
 
@@ -7,8 +7,8 @@ const Header = () => (
     <div class="navbar-left-content">
       <img src={logo} width="40" height="40" class="navbar-image" />
       <a> Medicine site </a>
-      <a>Home</a>
-      <a>Add</a>
+      <a href="/">Home</a>
+      <a href="/add">Add</a>
     </div>
     <div class="navbar-right-content">
       <form>
